@@ -9,7 +9,6 @@ I believe this is a nice approach to have a hand and express your idea in the de
 ### Tech Stack
 I have written the project with the help of **Webpack**, **Babel** and **Web-Components**.
 
-
 ### Architecture
 Somehow I have followed the approach of the well-known JS frameworks and libs like Vue and React.
 * We have an entry point which is `src/index.js`. Here we inject the code into dom  > **index.html**.
@@ -19,12 +18,17 @@ Somehow I have followed the approach of the well-known JS frameworks and libs li
 * Configuration of Webpack can be found in here: src/config/webpack (both prod & dev) 
 
 ### App Execution
+Environment should support these tools: 
+```json
+ "npm" : ">=8.0.0",
+ "node" : ">=16.0.0"
+```
+
 To run the project in `development` mode simply execute `npm run dev`.
 For the production version run `npm run deploy`.
 
 ### SEO
 Tried to follow common rules, but for further improvements we may add `robots.txt` `canonical-meta` etc. 
-
 
 ### Accessibility
 There are some complains under Chrome's `lighthouse`, tried to change the colors but no luck, we need to ensure it during the design phase.
