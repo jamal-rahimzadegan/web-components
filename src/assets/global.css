@@ -1,0 +1,52 @@
+@font-face {
+    /*In real world better to use typography rules*/
+    /*I've just used this font, but we can use more of them*/
+    /*  We may want to add more formats, but *.ttf is well supported */
+    font-family: montserrat-light;
+    font-weight: normal;
+    font-display: swap;
+    src: url(fonts/montserrat-light.eot?#iefix) format('embedded-opentype'),
+        url(fonts/montserrat-light.ttf) format('truetype');
+}
+
+:root {
+    /*--Colors-------*/
+    --black: #121212;
+    --white: #fff;
+    --shadow: rgba(0, 0, 0, 0.5);
+    --navy: #040c36;
+    --light-blue: #7fc4fd;
+    --med-blue: #008dff;
+    --red: #cc0000;
+    --grey-stroke: #7c8189;
+    --light-grey-stroke: #e3e8f0;
+    --light-grey: #f0f2f7;
+
+    /*--Sizing-------*/
+    --landing-inline-padding: 50px;
+    --radius-normal: 4px;
+    font-size: 16px;
+}
+
+html {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    font-family: montserrat-light, serif;
+}
+
+*,
+*:before,
+*:after {
+    -webkit-box-sizing: inherit;
+    -moz-box-sizing: inherit;
+    box-sizing: inherit;
+}
+
+body {
+    margin: 0;
+}
+
+p {
+    margin: 0;
+}
