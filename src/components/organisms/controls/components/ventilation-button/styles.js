@@ -28,7 +28,7 @@ ${
 }
 
 .ventilation-button-title {
-box-shadow:none;
+  box-shadow:none;
   pointer-events: none;
   font-size: 10px;
   font-weight: bold;

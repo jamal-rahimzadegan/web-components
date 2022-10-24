@@ -2,7 +2,7 @@ import { content } from "./content";
 import { styles } from "./styles";
 import ComponentFactory from "../../../utils/element-factory";
 
-// It's a call to action section
+// It's a call to action component
 export default class ActionCall extends ComponentFactory {
   constructor() {
     super({

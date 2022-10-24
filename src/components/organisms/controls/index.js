@@ -102,10 +102,6 @@ export default class Controls extends ComponentFactory {
     handleVentilationBtnVisibility(el, visible) {
         el.setAttribute('visible', visible)
     }
-
-    getByTag(tag, index = 0) {
-        return this.controls.getElementsByTagName(tag)?.[index]
-    }
 }
 
 window.customElements.define('app-controls', Controls)

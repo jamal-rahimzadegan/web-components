@@ -1,7 +1,9 @@
-export function findMetricRange(carData, metrics) {
+export function findMetricRange(carData = [], metrics = {}) {
     let target = 0
     let isMatchValue = false
     let isMatchSpeed = false
+
+    if (!carData.length || !metrics?.ac) return target
 
     carData.find((item) => {
         isMatchValue =

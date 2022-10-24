@@ -14,10 +14,10 @@ export const styles = `
 }
 
 .wheel-selected{
-/*TODO: implement with better approach
-   Better to not use important and hardcoded color but in this case (for IE) :(
- */
-border: 2px solid #008dff  !important;
+    /*TODO: implement with better approach
+       Better to not use important and hardcoded color but in this case (for IE) :(
+     */
+    border: 2px solid #008dff  !important;
 }
 </style>
 `
