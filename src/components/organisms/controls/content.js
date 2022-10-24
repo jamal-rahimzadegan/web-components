@@ -3,7 +3,7 @@ import logoP100D from '../../../assets/images/p100d@2x.png'
 
 export const content = `
 <div >
-<div class="controls-speed-meter-box">
+<div class="controls-range-meter-box">
   <range-meter speed="350" logo="${logo100d}"></range-meter>
   <range-meter speed="350" logo="${logoP100D}"></range-meter>
 </div>

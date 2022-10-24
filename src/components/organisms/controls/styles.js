@@ -4,8 +4,10 @@ export const styles = `
     user-select: none;
 }
 
-.controls-speed-meter-box {
+.controls-range-meter-box {
     display: flex;
+    flex-wrap: wrap;
+    padding: 0 10%;
     align-items: center;
     justify-content: space-around;
 }
