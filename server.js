@@ -1,8 +1,8 @@
 const express = require('express')
-const app = express()
 const fs = require('fs')
 const path = require('path')
 
+const app = express()
 const port = 3000
 
 app.get('/', (req, res) => {
@@ -11,7 +11,7 @@ app.get('/', (req, res) => {
     res.send(htmlContent)
 })
 
-// loading css files
+// loading assets
 app.use('/static', express.static(path.resolve(__dirname, 'build')))
 
-app.listen(port, () => console.log(`--- app is running on ----> `, port))
+app.listen(port, () => console.log(`->App is running on:`, port))
