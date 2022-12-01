@@ -1,52 +1,99 @@
-@font-face {
-    /*In real world better to use typography rules*/
-    /*I've just used this font, but we can use more of them*/
-    /*  We may want to add more formats, but *.ttf is well supported */
-    font-family: montserrat-light;
-    font-weight: normal;
-    font-display: swap;
-    src: url(fonts/montserrat-light.eot?#iefix) format('embedded-opentype'),
-        url(fonts/montserrat-light.ttf) format('truetype');
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
 }
 
-:root {
-    /*--Colors-------*/
-    --black: #121212;
-    --white: #fff;
-    --shadow: rgba(0, 0, 0, 0.5);
-    --navy: #040c36;
-    --light-blue: #7fc4fd;
-    --med-blue: #008dff;
-    --red: #cc0000;
-    --grey-stroke: #7c8189;
-    --light-grey-stroke: #e3e8f0;
-    --light-grey: #f0f2f7;
-
-    /*--Sizing-------*/
-    --landing-inline-padding: 50px;
-    --radius-normal: 4px;
-    font-size: 16px;
+* {
+  margin: 0;
+  padding: 0;
+  font: inherit;
 }
 
 html {
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
-    font-family: montserrat-light, serif;
-}
-
-*,
-*:before,
-*:after {
-    -webkit-box-sizing: inherit;
-    -moz-box-sizing: inherit;
-    box-sizing: inherit;
+  color-scheme: dark light;
+  text-align: unset;
+  line-height: normal;
+  overscroll-behavior: none;
+  scroll-behavior: smooth;
 }
 
 body {
-    margin: 0;
+  min-height: 100vh;
 }
 
-p {
-    margin: 0;
+img,
+picture,
+svg,
+video {
+  display: block;
+  max-width: 100%;
+}
+
+button {
+  background: transparent;
+  border: none;
+  outline: none;
+}
+
+/* Removes inputs focus color */
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+textarea:-webkit-autofill,
+textarea:-webkit-autofill:hover,
+textarea:-webkit-autofill:focus,
+select:-webkit-autofill,
+select:-webkit-autofill:hover,
+select:-webkit-autofill:focus {
+  -webkit-box-shadow: 0 0 0 1000px transparent inset;
+  transition: background-color 5000s ease-in-out 0s;
+}
+
+/* ------------scrollbar----------------------------------------------------- */
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  border-radius: 10px;
+}
+::-webkit-scrollbar-thumb {
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+/* @font-face { */
+/* font-family: 'APP-Bold'; */
+/* src: url(../../../public/static/fonts/akharin-khabar/AkharibKhabar-Bold.otf)
+    format('woff'); */
+/* } */
+
+@font-face {
+  /*In real world better to use typography rules*/
+  /*I've just used this font, but we can use more of them*/
+  /*  We may want to add more formats, but *.ttf is well supported */
+  font-family: montserrat-light;
+  font-weight: normal;
+  font-display: swap;
+  src: url(fonts/montserrat-light.eot?#iefix) format('embedded-opentype'),
+    url(fonts/montserrat-light.ttf) format('truetype');
+}
+
+:root {
+  /*--Colors-------*/
+  --black: #121212;
+  --white: #fff;
+  --shadow: rgba(0, 0, 0, 0.5);
+  --navy: #040c36;
+  --light-blue: #7fc4fd;
+  --med-blue: #008dff;
+  --red: #cc0000;
+  --grey-stroke: #7c8189;
+  --light-grey-stroke: #e3e8f0;
+  --light-grey: #f0f2f7;
+
+  /*--Sizing-------*/
+  --landing-inline-padding: 50px;
+  --radius-normal: 4px;
+  font-size: 16px;
 }
