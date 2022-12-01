@@ -1,7 +1,7 @@
 {
-    "name": "sendcloud-challenge",
+    "name": "web-components",
     "version": "1.0.0",
-    "description": "This is a technical challenge to test Front-end development-related skills. By building a working example we can better understand your way of working, how you structure your code, thoughts, and take some design decisions along the way. What we ultimately want to see is how far you can go, given the requirements described here",
+    "description": "Intor to web components",
     "private": "true",
     "keywords": [],
     "author": "",
