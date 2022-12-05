@@ -1,10 +1,4 @@
-# Frontend  Challenge
-
-Here is my challenge and I will explain some stuff about it.
-
-### Notes Before you get to the game
-* There are maybe some differences between the original design and the implemented one.
-I believe this is a nice approach to have a hand and express your idea in the design a bit.
+# Frontend  Web Component
 
 ### Tech Stack
 I have written the project with the help of **Webpack**, **Babel** and **Web-Components**.
@@ -23,25 +17,3 @@ Environment should support these tools:
  "npm" : ">=8.0.0",
  "node" : ">=16.0.0"
 ```
-
-To run the project in `development` mode simply execute `npm run dev`.
-For the production version run `npm run deploy`.
-
-### SEO
-Tried to follow common rules, but for further improvements we may add `robots.txt` `canonical-meta` etc. 
-
-### Accessibility
-There are some complains under Chrome's `lighthouse`, tried to change the colors but no luck, we need to ensure it during the design phase.
-
-### Performance And Optimization
-I have optimized assets but for better load time we can use `service-worker cache`, `code-splitting` etc.
-
-### Security
-In real world we need to take care of XSS and the other attacks.
-
-### Final Word
-I tend to express my ideas and approaches as much as I can, so based on this, some code structure and UI could be improved 
-and I mentioned some as comments in their places.
-
-
-
